@@ -1,0 +1,71 @@
+::selection {
+  color: rgb(253, 78, 35);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.right {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.left {
+  color: cadetblue;
+  padding: 40px;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  font-size: 15px;
+}
+.content {
+  margin-top: 25%;
+  font-size: x-large;
+}
+.content p {
+  color: rgb(192, 193, 191);
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+.right img {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(106, 206, 155);
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  width: 120px;
+  padding: 10px;
+  margin: 80px 250px;
+}
+a:hover {
+  color: white;
+  background-color: rgb(55, 106, 80);
+}
